@@ -8,32 +8,38 @@
     font-family: Arial, sans-serif;
   }
   
-  .navbar {
+  /* Header/Navbar styling */
+  header {
     background-color: #333;
-    padding: 1em 0;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+  }
+  
+  .navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
   }
   
   .navbar ul {
-    list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
   }
   
   .navbar a {
     color: white;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
   }
   
   .navbar a:hover {
     color: #ffcc00;
   }
   
+  /* Page content */
   .content {
     padding: 2rem;
+    text-align: center;
   }
