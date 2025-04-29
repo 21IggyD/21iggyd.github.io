@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
