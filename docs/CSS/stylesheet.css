@@ -71,13 +71,13 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  /* Image hover effect */
+
   .image-container img:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
   
-  /* Caption styling */
+
   .caption {
     position: absolute;
     bottom: 10px;
@@ -90,10 +90,9 @@
     opacity: 0;
     transition: opacity 0.3s ease;
     font-size: 0.9rem;
-    pointer-events: none; /* So it doesn’t interfere with hover */
+    pointer-events: none;
   }
   
-  /* Show caption on hover */
   .image-container:hover .caption {
     opacity: 1;
   }
