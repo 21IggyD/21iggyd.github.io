@@ -96,3 +96,17 @@
   .image-container:hover .caption {
     opacity: 1;
   }
+  /* Page titles */
+  .page-title {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Georgia', serif;
+    color: #2a4d69;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #4b86b4;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
