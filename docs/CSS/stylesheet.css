@@ -4,18 +4,15 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
   body {
     font-family: Arial, sans-serif;
   }
   
-
   .navbar {
     background-color: #1b6401;
     padding: 1rem 0;
   }
   
-
   .navbar-links {
     display: flex;
     justify-content: center; 
@@ -23,7 +20,6 @@
     gap: 2rem; 
   }
   
- 
   .navbar a {
     color: white;
     text-decoration: none;
@@ -31,7 +27,6 @@
     padding: 0.5rem 1rem;
     transition: background 0.3s, color 0.3s;
   }
-  
 
   .navbar a:hover {
     color: #ffcc00;
@@ -63,7 +58,6 @@
     position: relative;
     width: 200px;
   }
-  
   .image-container img {
     width: 100%;
     height: auto;
@@ -71,13 +65,11 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-
   .image-container img:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   }
   
-
   .caption {
     position: absolute;
     bottom: 10px;
