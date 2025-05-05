@@ -20,6 +20,23 @@
         <div class="popup-content">
           <span class="close" id="closePopup">&times;</span>
           <h2>Support Local Fisheries</h2>
+          <form id="donationForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+      
+            <label>Choose a donation amount:</label><br>
+            <input type="radio" id="amount10" name="amount" value="10">
+            <label for="amount10">$10</label><br>
+            <input type="radio" id="amount25" name="amount" value="25">
+            <label for="amount25">$25</label><br>
+            <input type="radio" id="amount50" name="amount" value="50">
+            <label for="amount50">$50</label><br><br>
+      
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our newsletter</label><br><br>
+      
+            <button type="reset">Reset</button>
+            <button type="submit">Donate</button>
           <p>Consider donating to these organizations:</p>
           <ul>
             <li><a href="https://example.org/fishery1" target="_blank">Fishery Organization 1</a></li>
