@@ -1,9 +1,10 @@
-<script>
-  window.onload = function() {
-    document.getElementById('popup').style.display = 'flex'
+window.onload = function () {
+    const popup = document.getElementById('popup');
+    const closeBtn = document.getElementById('closePopup');
+  
+    popup.style.display = 'flex';
+  
+    closeBtn.onclick = function () {
+      popup.style.display = 'none';
+    };
   };
-
-  document.getElementById('closePopup').onclick = function() {
-    document.getElementById('popup').style.display = 'none'
-  };
-</script>
