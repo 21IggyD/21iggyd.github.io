@@ -160,11 +160,6 @@
     padding: 20px;
   }
   
-  .interaction-box button {
-    margin: 10px;
-    padding: 8px 16px;
-    cursor: pointer;
-  }
   .interaction-box {
     text-align: center;
     margin: 50px auto;
@@ -172,4 +167,5 @@
     padding: 1.5rem;
     border-radius: 10px;
     max-width: 600px;
-  }  
+  }
+  
