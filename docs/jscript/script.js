@@ -28,3 +28,11 @@ window.onload = function () {
       popup.style.display = "none";
     };
   };
+  // inner html
+  function showFact() {
+    document.getElementById("infoBox").innerHTML = "The Brook Trout was the first gamefish encountered by european settlers.";
+  };
+  
+  function showTip() {
+    document.getElementById("infoBox").innerHTML = "Tip: Look for sculpins and darters under rocks and logs.";
+  };
