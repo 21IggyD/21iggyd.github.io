@@ -165,4 +165,11 @@
     padding: 8px 16px;
     cursor: pointer;
   }
-  
+  .interaction-box {
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 600px;
+  }  
