@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="CSS/stylesheet.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="CSS/stylesheet.css">
+  <style>
+    body {
+      background-image: url('images/stream.jpg'); /* Update with your actual image path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .welcome-box {
+      text-align: center;
+      margin-top: 100px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 2rem;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="navbar-links">
-          <li><a href="MainPage.html">Home</a></li>
-          <li><a href="etheos.html">Darters</a></li>
-          <li><a href="cyprin.html">Minnows</a></li>
-        </ul>
-      </nav>
-      <div id="popup" class="popup">
-        <div class="popup-content">
-          <span class="close" id="closePopup">&times;</span>
-          <h2>Support Local Fisheries</h2>
-          <form id="donationForm">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-      
-            <label>Choose a donation amount:</label><br>
-            <input type="radio" id="amount10" name="amount" value="10">
-            <label for="amount10">$10</label><br>
-            <input type="radio" id="amount25" name="amount" value="25">
-            <label for="amount25">$25</label><br>
-            <input type="radio" id="amount50" name="amount" value="50">
-            <label for="amount50">$50</label><br><br>
-      
-            <input type="checkbox" id="subscribe" name="subscribe">
-            <label for="subscribe">Subscribe to our newsletter</label><br><br>
-      
-            <button type="reset">Reset</button>
-            <button type="submit">Donate</button>
-            </form>
-            <p>Consider donating to these organizations:</p>
-          <ul>
-            <li><a href="https://example.org/fishery1" target="_blank">Fishery Organization 1</a></li>
-            <li><a href="https://example.org/fishery2" target="_blank">Fishery Organization 2</a></li>
-            <li><a href="https://example.org/fishery3" target="_blank">Fishery Organization 3</a></li>
-          </ul>
-        </div>
-      </div>
-      <script src="jscript/script.js"></script>
-      <div class="welcome-box">
-        <h1>Welcome to My Site</h1>
-        <p>Direct yourself to the other pages to see what North America has hiding in its waters!</p>
-      </div>
+  <nav class="navbar">
+    <ul class="navbar-links">
+      <li><a href="MainPage.html">Home</a></li>
+      <li><a href="etheos.html">Darters</a></li>
+      <li><a href="cyprin.html">Minnows</a></li>
+    </ul>
+  </nav>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" id="closePopup">&times;</span>
+      <h2>Support Local Fisheries</h2>
+      <form id="donationForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label>Choose a donation amount:</label><br>
+        <input type="radio" id="amount10" name="amount" value="10">
+        <label for="amount10">$10</label><br>
+        <input type="radio" id="amount25" name="amount" value="25">
+        <label for="amount25">$25</label><br>
+        <input type="radio" id="amount50" name="amount" value="50">
+        <label for="amount50">$50</label><br><br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to our newsletter</label><br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Donate</button>
+      </form>
+      <p>Consider donating to these organizations:</p>
+      <ul>
+        <li><a href="https://example.org/fishery1" target="_blank">Fishery Organization 1</a></li>
+        <li><a href="https://example.org/fishery2" target="_blank">Fishery Organization 2</a></li>
+        <li><a href="https://example.org/fishery3" target="_blank">Fishery Organization 3</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="welcome-box">
+    <h1>Welcome to My Site</h1>
+    <p>Direct yourself to the other pages to see what North America has hiding in its waters!</p>
+  </div>
+
+  <script src="jscript/script.js"></script>
 </body>
 </html>
