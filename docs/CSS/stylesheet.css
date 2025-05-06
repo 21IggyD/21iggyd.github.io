@@ -134,3 +134,22 @@
     font-size: 24px;
     cursor: pointer;
   }
+  /* table styling */
+  .info-table {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+  }
+  
+  .info-table th,
+  .info-table td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+  }
+  
+  .info-table th {
+    background-color: #f2f2f2;
+  }
