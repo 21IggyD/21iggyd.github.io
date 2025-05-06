@@ -14,7 +14,7 @@ window.onload = function () {
       event.preventDefault();
   
       const name = nameInput.value.trim();
-      console.log("Name entered:", name); // Debugging
+      console.log("Name entered:", name); 
   
       // If Then Else
       if (name.toLowerCase() === "admin") {
