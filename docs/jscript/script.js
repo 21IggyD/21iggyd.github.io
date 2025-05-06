@@ -6,7 +6,7 @@ function showFact() {
     document.getElementById("infoBox").innerHTML = "Tip: Look for sculpins and darters under rocks and logs.";
   }
   
-window.onload = function () {
+  window.onload = function () {
     const popup = document.getElementById('popup');
     const closeBtn = document.getElementById('closePopup');
     const nameInput = document.getElementById("name");
@@ -24,7 +24,6 @@ window.onload = function () {
       const name = nameInput.value.trim();
       console.log("Name entered:", name); 
   
-      // If Then Else
       if (name.toLowerCase() === "admin") {
         alert("Hello Admin! Thank you for supporting us!");
       } else if (name === "") {
@@ -35,4 +34,10 @@ window.onload = function () {
   
       popup.style.display = "none";
     };
+  
+
+    const tipButton = document.getElementById("tipButton");
+    if (tipButton) {
+      tipButton.addEventListener("mouseenter", showTip);
+    }
   };
